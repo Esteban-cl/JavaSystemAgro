@@ -1,0 +1,5 @@
+com\example\systemagro\controller\UserController.class
+com\example\systemagro\repositories\UserRepository.class
+com\example\systemagro\SystemagroApplication.class
+com\example\systemagro\models\User.class
+com\example\systemagro\services\UserService.class
