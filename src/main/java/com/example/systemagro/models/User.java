@@ -3,7 +3,7 @@ package com.example.systemagro.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "User")
+@Table(name = "User", catalog = "systemagrojava", schema = "")
 public class User {
 
     @Id
@@ -28,7 +28,6 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
-
     public String getName() {
         return Name;
     }
@@ -45,11 +44,11 @@ public class User {
         Lastname = lastname;
     }
 
-    public Integer getRol_id() {
+    public Integer getRol() {
         return Rol;
     }
 
-    public void setRol_id(Integer rol) {
+    public void setRol(Integer rol) {
         Rol = rol;
     }
 

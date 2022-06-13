@@ -1,2 +1,9 @@
-C:\Users\xxest\IdeaProjects\systemagro\src\main\java\com\example\systemagro\models\User.java
-C:\Users\xxest\IdeaProjects\systemagro\src\main\java\com\example\systemagro\SystemagroApplication.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\models\User.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\services\UserService.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\repositories\UserRepository.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\models\Product.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\repositories\ProductoImplentacion.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\SystemagroApplication.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\controller\ProductControlller.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\repositories\InterfaceProducto.java
+C:\Users\xxest\Desktop\systemagro\src\main\java\com\example\systemagro\controller\UserController.java

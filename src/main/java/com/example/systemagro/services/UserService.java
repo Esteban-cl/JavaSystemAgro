@@ -29,6 +29,10 @@ public class UserService {
         return userRepository.findByRol(Id);
     }*/
 
+    public User UpdateUser(User UserUpdate){
+        return userRepository.save(UserUpdate);
+    }
+
     public String DeleteUser(Long Id){
         try {
             userRepository.deleteById(Id);

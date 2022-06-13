@@ -27,8 +27,13 @@ public class UserController {
     @GetMapping(path = "/{Id}")
     public Optional<User> UserById(@PathVariable("Id") Long Id){
         return userService.UserById(Id);
-
     }
+
+    @PutMapping()
+    public User UpdateUser(@RequestBody User UserUpdate){
+        return this.userService.UpdateUser(UserUpdate);
+    }
+
 
     @DeleteMapping(path = "/{Id}")
     public String DeletUserById(@PathVariable("Id") Long Id){
